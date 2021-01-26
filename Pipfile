@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+jupyterlab = "*"
+kaggle = "*"
+tensorflow-io = "*"
+pandas = "*"
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+black = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.8"
