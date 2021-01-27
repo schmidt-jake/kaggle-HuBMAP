@@ -9,12 +9,16 @@ jupyterlab = "*"
 kaggle = "*"
 tensorflow-io = "*"
 pandas = "*"
-
-[dev-packages]
 pytest = "*"
 flake8 = "*"
 black = "*"
 pillow = "*"
+matplotlib = "*"
+
+[dev-packages]
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
